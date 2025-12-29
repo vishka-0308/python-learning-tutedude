@@ -1,0 +1,11 @@
+def fact(num):
+    if num < 0:
+        return "Factorial is not defined for negative numbers"
+    elif num in [0,1] :
+        return 1
+    else:
+        result=num*fact(num-1)
+        return result
+    
+number=int(input("Enter a number to find factorial: "))
+print(f"The factorial of {number} is {fact(number)}")
