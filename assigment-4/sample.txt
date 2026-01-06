@@ -1,0 +1,3 @@
+this is the sample file
+it is a text file 
+it is used in program 1
